@@ -9,7 +9,7 @@
 
 body {
   font-family: OpticianSans;
-  color: #3e3f29;
+  color: #202417;
 }
 
 main {
@@ -61,11 +61,11 @@ li {
 }
 
 a {
-  color: #777869;
+  color: #56701e;
 }
 
 a:visited {
-  color: #786977;
+  color: #45522a;
 }
 
 .gap-1 {
