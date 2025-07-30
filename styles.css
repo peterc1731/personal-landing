@@ -91,3 +91,18 @@ a:visited {
   gap: 16px;
   align-items: center;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #d0d0d0;
+    background-color: #12140d;
+  }
+
+  a {
+    color: #9fbb3e;
+  }
+
+  a:visited {
+    color: #7a8b4c;
+  }
+}
