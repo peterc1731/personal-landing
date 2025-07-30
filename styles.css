@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "OpticianSans";
+  src: url("Optiker-K.woff2") format("woff2"),
+    url("Optiker-K.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: OpticianSans;
+  color: #3e3f29;
+}
+
+main {
+  max-width: 400px;
+  padding: 16px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 12px;
+  margin: 0;
+}
+
+li {
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+a {
+  color: #777869;
+}
+
+a:visited {
+  color: #786977;
+}
+
+.gap-1 {
+  height: 8px;
+}
+
+.gap-2 {
+  height: 16px;
+}
+
+.gap-4 {
+  height: 32px;
+}
+
+.gap-8 {
+  height: 64px;
+}
+
+.contact {
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
